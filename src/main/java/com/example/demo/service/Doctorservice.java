@@ -17,6 +17,7 @@ public class Doctorservice {
 	}
 	private Doctors adddoctors(Doctors doc)
 	{
+		System.out.println("hii");
 		return reposit.save(doc);
 		
 	}
