@@ -17,8 +17,10 @@ public class Doctorservice {
 	}
 	private Doctors adddoctors(Doctors doc)
 	{
+		System.out.println("hrllo");
 		System.out.println("hii");
 		return reposit.save(doc);
+		
 		
 	}
 	private List<Doctors> addadoctorss(List<Doctors> docs)
